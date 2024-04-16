@@ -1,0 +1,7 @@
+# How to run
+ansible -playbook -i <ENV_NAME>/<INVENTORY_FILE> -e ansible_user=<USERNAME> ansible_password=<PASSWORD> <PLAYBOOK_NAME>
+
+Example:-
+ansibel-playbook -i dev/inventory ansible_user=centos ansible_password=DevOps321 mongodb.yaml
+
+ansibel-playbook -i prod/inventory ansible_user=centos ansible_password=DevOps321 mongodb.yaml
