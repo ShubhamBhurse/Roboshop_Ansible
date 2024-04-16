@@ -1,4 +1,4 @@
-### How to run
+### How-to-run
 
 ansible -playbook -i <ENV_NAME>/<INVENTORY_FILE> -e ansible_user=<USERNAME> ansible_password=<PASSWORD> <PLAYBOOK_NAME>
 
