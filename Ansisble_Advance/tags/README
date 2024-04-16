@@ -1,0 +1,7 @@
+# How to run
+
+# If you want to run all task from catalogue.yaml playbook
+ansible-playbook inventory -e ansible_username=centos -e ansible_password=DevOps321 catalogue.yaml
+
+# If you want to run specific task only
+ansible-playbook inventory -e ansible_username=centos -e ansible_password=DevOps321 catalogue.yaml -t deployment
